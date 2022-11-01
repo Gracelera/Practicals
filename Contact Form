@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <h4>This is a Simple contact form to collate our Customer's email address and to attend to their complaint</h4>
+    <p>Kindly enter your details below</p>
+<hr>
+
+<!-- Name Field -->
+<div>
+    <label for="name">First Name</label> <br>
+    <input type="text" name="name" id="name" placeholder="John" >
+</div>
+
+<br>
+<div>
+    <label for="name">Last Name</label> <br>
+    <input type="text" name="name" id="name" placeholder="Doe">
+</div>
+
+<br>
+
+<!-- Email Address Field -->
+<div>
+    <label for="email">Email Address</label> <br>
+    <input type="text" name="email" id="email" placeholder="Enter your Email Address" >
+</div>
+
+<br>
+<!-- Button -->
+<button>Submit</button>
+
+</body>
+</html>
